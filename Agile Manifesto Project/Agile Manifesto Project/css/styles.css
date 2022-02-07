@@ -7949,6 +7949,11 @@ and hiding the image over top of it
 So use by making a div and putting the image inside this
 Note: only works with rounded circle class so use that with the image
 */
+
+.imageResize {
+  width: 100%;
+  height: auto;
+}
 .gradient-imageBorder{
   border-radius: 50%;
   background: linear-gradient(270deg, #009900, #006600, #003300 45% 30%, #006600);
